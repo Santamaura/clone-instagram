@@ -1,0 +1,31 @@
+i.Nav {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    height: 77px;
+  }
+  .Nav-menus {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    height: 80%;
+    width: inherit;
+    margin: 0 auto;
+    padding: 26px 40px;
+  }
+  .Nav-brand-logo {
+    display: block;
+    background-position: -176px 0px;
+    background-image: url(../../icons/sprite.png);
+    background-size: 405px 379px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 176px;
+    text-indent: -1000%
+  }
+  .root {
+    border-bottom: 1px solid #dbdbdb;
+  }

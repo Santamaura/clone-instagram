@@ -1,0 +1,92 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+.comment-view-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-container {
+    overflow-y: scroll;
+    height: 360px;
+    font-size: 14px;
+}
+
+.header-container {
+    height: 72px;
+}
+
+.action-container {
+    height: 112;
+}
+
+.add-comment-container {
+    height: 56px;
+    border-top: 1px solid #efefef;
+    color: #999;
+}
+.action-container {
+    display: flex;
+    text-align: left; 
+    padding-left: 10px;
+}
+.comment-view-icons {
+    display: flex;
+}
+.comment-view-heart {
+    display: block;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: url(../../icons/ig-heart-25.png);
+  }
+  .comment-view-topic {
+    display: block;
+    pointer-events: auto;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: url(../../icons/ig-topic-25.png);
+  }
+  .comment-view-share {
+    display: block;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 35px;
+    margin-top: 6px;
+    margin-left: 5px;
+    background-image: url(../../icons/ig-share-25.png);
+  }
+  .add-comment-view-container {
+    border-top: 1px solid #efefef;
+    color: #999;
+    height: 50px;
+    margin-top: 20px;;
+  }
+  .add-comment-view-container-sub {
+    display: flex;
+    width: inherit;
+  }
+  .comment-view-input-fill {
+    width: 90%;
+    height: -webkit-fill-available;
+    border: none;
+    padding-left: 12px;
+  }
+  .comment-view-post-button {
+    background-color: #fff;
+    border: none;
+    color: #3897f0;
+    cursor: pointer;
+  }
+  .comment-view-toggle-comments {
+      color: #999;
+      cursor: pointer;
+  }

@@ -1,0 +1,176 @@
+.Post {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  }
+  .Post-user {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: solid #efefef 2px;
+  }
+  .Post-alternate {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  }
+  .Post-sidebar {
+    height: 300px;;
+    width: 300px;
+  }
+  .Post-user-avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+  }
+  .Post-user-avatar img {
+    display: inline-block;
+    width: 100%;
+    border-radius: 50%;
+  }
+  .Post-user-nickname {
+    margin-left: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .Post-image {
+    background-color: #efefef;
+
+  }
+  .Post-image img {
+    display: block;
+    width: 100%;
+  }
+  .Post-caption {
+    text-align: left; 
+    padding: 12px 12px;
+  }
+  .Post-caption strong {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    padding-right: 5px;
+  }
+  .vjs-fade-out {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .View-container {
+    display: flex;
+    text-align: left; 
+    padding-left: 10px;
+  }
+  .View-all {
+    background-color: #fff;
+    border-style: solid;
+    border: #fff;
+    color: #999;
+    vertical-align: middle;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px; 
+  }
+  .View-all:hover {
+    cursor: pointer;
+  }
+  .list {
+    list-style-type: none;
+    max-width: 500px;
+    word-wrap: break-word;
+  }
+  .list-item {
+    display: flex;
+  }
+.add-post-comment-container {
+  border-top: 1px solid #efefef;
+  color: #999;
+  height: 56px;
+}
+.add-post-comment-container-sub {
+  display: flex;
+  width: inherit;
+}
+.input-fill {
+  width: 90%;
+  height: -webkit-fill-available;
+  border: none;
+  padding-left: 12px;
+}
+.post-button {
+  background-color: #fff;
+  border: none;
+  color: #3897f0;
+}
+.post-button:hover {
+  cursor: pointer;
+}
+.Post-icons {
+  display: flex;
+}
+.Post-heart {
+  display: block;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url(../../icons/ig-heart-25.png);
+}
+.Post-topic {
+  display: block;
+  pointer-events: auto;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 35px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-image: url(../../icons/ig-topic-25.png);
+  cursor: pointer;
+}
+.Post-share {
+  display: block;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 35px;
+  margin-top: 6px;
+  margin-left: 5px;
+  background-image: url(../../icons/ig-share-25.png);
+}
+.unlike-heart {
+  display: block;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  margin-top: 3px;
+  margin-left: 3px;
+  background-image: url(../../icons/ig-heart-25.png);
+  cursor: pointer;
+}
+.like-heart {
+  display: block;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 15px;
+  margin-top: 3px;
+  margin-left: 3px;
+  background-image: url(../../icons/ig-heart-color-25.png);
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.unlike-heart-reply {
+    display: block;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-left: 3px;
+    background-image: url(../../icons/ig-heart-25.png);
+    cursor: pointer;
+  }
+  .like-heart-reply {
+    display: block;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    margin-left: 3px;
+    background-image: url(../../icons/ig-heart-color-25.png);
+    cursor: pointer;
+  }
+  .user-reply-row {
+      display: flex;
+      padding-left: 10px;
+  }
+  .user-reply-name {
+      padding-right: 5px;
+  }
+  .user-reply-text {
+    max-width: 150px;
+    word-wrap: break-word;
+  }
+  .user-reply-likes {
+      text-align: left;
+      padding-left: 10px;
+      color: #999;
+  }
