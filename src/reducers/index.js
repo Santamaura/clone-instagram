@@ -10,67 +10,74 @@ import {
 const initialState = {
     comments: [
     {
-        user: 'test2',
-        text: 'comment text 2',
+        user: 'BradPitt',
+        text: 'Definitely check this out',
         numOfLikes: 10,
         liked: false,
         replies: [
             {
-                user: 'expended replies',
-                text: 'comment reply 2',
+                user: 'TonyTone',
+                text: 'for sure!',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'MovieMan',
+                text: '<3 this',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'FantasticFox',
+                text: 'is it out already?',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'JohnWick',
+                text: 'nice new Tarantino!',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'Bob_Loblaw',
+                text: 'no doubt',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'ReBobSaget',
+                text: 'Hopefully this measures up to other Tarantino movies',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'TonyWu1336',
+                text: 'what am i doing in here...',
                 numOfLikes: 1,
                 liked: false,
             },
             {
-                user: 'test user 4',
-                text: 'comment reply 3',
+                user: 'Timothy_Jones_92',
+                text: 'hi Brad!!!!',
                 numOfLikes: 1,
                 liked: false,
             },
         ],
     },
     {
-        user: 'test3',
-        text: 'comment text 3',
+        user: 'akadmiks',
+        text: 'Reallll nice poster!',
         numOfLikes: 0,
         liked: false,
-        replies: []
+        replies: [
+            {
+                user: 'DonnyYen',
+                text: 'damn dj here too!',
+                numOfLikes: 3,
+                liked: false,
+            }
+        ]
     }],
 };
 
