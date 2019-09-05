@@ -1,5 +1,3 @@
-import initialState from  '../reducers/index';
-
 export const loadState = () => {
     try {
         const serializedState = localStorage.getItem('comments');

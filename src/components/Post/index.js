@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Post.css";
 import CommentView from '../CommentView/index';
-import Comment from '../Comment';
 import { connect } from 'react-redux';
 import { addComment, likeComment, removeLikeComment } from '../../actions';
 

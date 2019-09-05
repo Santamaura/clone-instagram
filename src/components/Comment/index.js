@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Comment.css";
 import Reply from "../Reply";
-import { stat } from "fs";
 
 class Comment extends Component {
     constructor(props) {
@@ -89,6 +88,7 @@ class Comment extends Component {
                         <Reply
                             user={reply.user}
                             text={reply.text}
+                            key={index}
                             id={index}
                             likeReplyOnClickHandler={this.props.likeReplyOnClickHandler}
                             removelikeReplyOnClickHandler={this.props.removelikeReplyOnClickHandler}

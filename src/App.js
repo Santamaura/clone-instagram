@@ -6,9 +6,6 @@ import Header from './components/Header';
 import Post from './components/Post';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { comments } = this.props;
     return (

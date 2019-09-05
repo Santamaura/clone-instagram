@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "./Reply.css";
 
 class Reply extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         const { user, text, numOfLikes, liked, id, commentId } = this.props;
         const trackingInfo = {replyId: id, commentId: commentId};
