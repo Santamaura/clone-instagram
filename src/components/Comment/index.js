@@ -105,7 +105,6 @@ class Comment extends Component {
 
     render() {
         const { user, text, replies, numOfLikes, liked } = this.props;
-        console.log(this.props);
         return (
             <div className='comment-body-wrapper'>
                 <div className='comment-body'>
@@ -133,7 +132,6 @@ class Comment extends Component {
                                 <input
                                     className="comment-reply-input-fill"
                                     type="text"
-                                    ref={(ip) => this.myInp = ip}
                                     value={this.state.value}
                                     placeholder="Add a reply..."
                                     onChange={this.handleChange}
